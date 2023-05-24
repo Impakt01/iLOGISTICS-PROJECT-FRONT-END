@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=PT+Serif&family=Roboto:wght@600&family=Russo+One&display=swap');
+
+body {
+    margin: auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-container-1 {
+    padding: 3.8rem 0;
+    background-color: aliceblue;
+    background-image: url("../public/background.png");
+    height: 900px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-item .nav-link:link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: grey;
+}
+
+.banner-text {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.img1 {
+    width: 350px;
+    margin-bottom: 2.5rem;
+}
+
+.banner-container {
+    padding: 3rem;
+}
+
+.banner-list-group {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-list-group .banner-list .banner-link:link {
+    text-decoration: none;
+    background-color: blue;
+    padding: 0.6rem 10rem;
+    border-radius: 5px;
+    border: 2px blue solid;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.banner-list-group .banner-list .banner-link:hover {
+    border: 2px blue solid;
+    border-radius: 5px;
+    color: blue;
+    background: none;
+    transition: 0.6s;
+}
+
+.bikeman-general-container {
+    background-color: aliceblue;
+}
+
+.for-business-gc {
+    padding: 7rem 0;
+}
+
+.remove {
+    opacity: 0;
+}
+
+.animation {
+    opacity: 1;
+    animation-name: opacity;
+    animation-duration: 1s;
+}
+
+.animation .animate-1 {
+    animation-name: enter1;
+    animation-duration: 1s;
+}
+
+.animation .animate-2 {
+    animation-name: enter2;
+    animation-duration: 1s;
+}
+
+@keyframes enter1 {
+    0% {
+        transform: translateX(500px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes enter2 {
+    0% {
+        transform: translateX(-500px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+/* .for-business-img {
+    width: 40rem;
+} */
+
+.manage-drivers {
+    text-decoration: underline;
+}
+
+.for-business-h1 {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+    font-size: 2rem;
+}
+
+.manage-drivers-details {
+    font-family: 'Cormorant Garamond', serif;
+    color: grey;
+}
+
+.for-business-signup:link {
+    text-decoration: none;
+    background-color: blue;
+    padding: 0.6rem 5rem;
+    border-radius: 5px;
+    border: 2px blue solid;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.for-business-signup:hover {
+    border: 2px blue solid;
+    border-radius: 5px;
+    color: blue;
+    background: none;
+    transition: 0.6s;
+}
+
+.bikeman-texts h4 {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+.bikeman-texts p {
+    font-family: 'Cormorant Garamond', serif;
+    color: grey;
+    text-align: center;
+}
+
+.bikeman-texts {
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.bikeman-general-container {
+    margin: 4rem 0rem;
+}
+
+.justify-bikeman {
+    display: flex;
+    justify-content: center;
+}
+
+.how-h1 {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.for-business-hw {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.for-business-hw div {
+    padding: 0.5rem;
+}
+
+.for-business-hw div i {
+    color: blue;
+}
+
+.for-business-hw div p {
+    font-family: 'Cormorant Garamond', serif;
+    color: grey;
+}
+
+.howitworks-container {
+    background-color: aliceblue;
+    padding: 6.5rem 0;
+}
+
+.footer-container {
+    padding: 4.5rem 0;
+}
+
+.footer-lw {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    color: grey;
+}
+
+.footer-texts h5 {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+.footer-texts ul {
+    list-style: none;
+    text-align: center;
+}
+
+.footer-texts ul li {
+    font-family: 'Cormorant Garamond', serif;
+    color: grey;
+}
+
+
+/* ANIMATION */
+
+.banner-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    animation-name: drop-down;
+    animation-duration: 3s;
+}
+
+@keyframes drop-down {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(50px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.banner-text-2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    animation-name: pop-up;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.banner-text {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    animation-name: pop-up;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pop-up {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.bikeman-animation {
+    animation-name: for-bikeman;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes for-bikeman {
+    0% {
+        transform: translateX(-30px);
+    }
+
+    50% {
+        transform: translateX(30px);
+    }
+
+    100% {
+        transform: translateX(-30px);
+    }
+}
+
+
+
+
+
+/* signUp */
+
+.sign-up-banner-text {
+    text-align: center;
+}
+
+.sign-up-banner-text h1 {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.sign-up-banner-text p {
+    font-family: 'Cormorant Garamond', serif;
+    color: grey;
+}
+
+.sing-up-container {
+    margin: 5rem 0;
+}
+
+.customer-signup-form {
+    margin: auto;
+    max-width: 30vw;
+}
+
+.singup-form {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 25px;
+}
+
+.singup-form div {
+    margin: 1.5rem 0;
+}
+
+.singup-form div label {
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.singup-form div input {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px dashed grey;
+    padding: 0;
+    width: 100%;
+    background: none;
+    font-family: 'Cormorant Garamond', serif;
+    color: grey;
+}
+
+.singup-form div input:focus {
+    outline: none;
+    border-bottom: 2px greenyellow solid;
+}
+
+.singup-form div button {
+    background-color: blue;
+    border: 2px blue solid;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0.6rem 3.5rem;
+}
+
+.price-container {
+    margin: 8rem 0;
+}
+
+.pricing {
+    text-align: center;
+}
+
+.pricing-heading h1 {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.pricing-heading p {
+    font-family: 'Cormorant Garamond', serif;
+    color: grey;
+}
+
+.pricing-heading {
+    margin: 2.5rem 0;
+}
+
+.pricing .pricing-heading {
+    border-bottom: 2px grey dashed;
+}
+
+.price {
+    margin: 5rem 0;
+}
+
+.price h4 {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.price h5 {
+    font-family: 'Cormorant Garamond', serif;
+    color: grey;
+}
+
+.for-pricing-bg {
+    background-color: aliceblue;
+    padding: 3rem;
+}
+
+.s-and-pay {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.s-and-pay div {
+    margin: 0 1rem;
+}
+
+.s-and-pay div h5 {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.s-and-pay div p {
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+}
+
+.price-calculator h1 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.price-calculator div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-calculator div div h5 {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.price-calculator div div input {
+    border: none;
+    background-color: blue;
+    padding: 1rem 0;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.price-calculator div div input:focus {
+    outline: none;
+}
+
+.price-note {
+    font-family: 'Russo One', sans-serif;
+    color: grey;
+    text-align: center;
+}
+
+.login-container {
+    margin: 8rem 0;
+}
+
+.login-as {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.customer-signup-form form {
+    display: flex;
+    justify-content: center;
+}
+
+.customer-signup-form form label {
+    font-family: 'Russo One', sans-serif;
+    color: grey;
+    margin: 0 15px 0 2px;
+}
+
+
+/* dashboard */
+
+.sidebar-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 10% 20%;
+}
+
+.sidebar-list ul div {
+    display: flex;
+    margin: 2.5rem 0;
+}
+
+.sidebar-list ul div span {
+    margin-right: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.sidebar-list ul div li {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+}
+
+.dashboard-logo {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    margin: 1rem 2rem;
+}
+
+.dashboard-title {
+    margin: 1rem 3rem;
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.logout {
+    position: absolute;
+    bottom: 1rem;
+}
+
+.sidebar-gen-container {
+    width: 18vw;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blue;
+}
+
+.boards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+.boards div {
+    background-color: aliceblue;
+    padding: 3rem 6rem;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px #aaaaaa;
+}
+
+.boards div h3 {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.boards div ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.boards div ul li {
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.active-dashboard {
+    border-left: 5px white solid;
+    padding-left: 5px;
+}
+
+.table-bg {
+    background-color: aliceblue;
+    padding: 3.5rem;
+}
+
+main {
+    margin-left: 18vw;
+}
+
+.driver-form {
+    width: 70%;
+    margin: 5rem auto;
+}
+
+.add-driver-title {
+    font-family: 'Russo One', sans-serif;
+    color: blue;
+}
+
+.driver-form p {
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.tabs {
+    transition: 0.2s;
+}
+
+.tabs:hover {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.order-start {
+    background-color: blue ;
+    border: 2px aliceblue solid;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
